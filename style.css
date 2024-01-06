@@ -177,4 +177,8 @@ button:hover {
     .menu {
         display: none;
     }
+
+    body {
+        overflow: hidden;
+    }
 }
