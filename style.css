@@ -173,4 +173,8 @@ button:hover {
     .align-center {
         font-size: 12px;
     }
+
+    .start .menu {
+        transform: scale(0.8);
+    }
 }
