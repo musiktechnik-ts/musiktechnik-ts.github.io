@@ -175,6 +175,6 @@ button:hover {
     }
 
     .start .menu {
-        transform: scale(0.8);
+        display: none;
     }
 }
