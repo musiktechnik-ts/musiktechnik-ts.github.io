@@ -18,20 +18,6 @@
 
 <body>
     <div class="start" id="start-section">
-        <div class="menu">
-            <button class="menu-button"
-                onclick="document.getElementById('start-section').scrollIntoView({behavior:'smooth',block:'center'})">
-                Home
-            </button>
-            <button class="menu-button"
-                onclick="document.getElementById('Leistungen-section').scrollIntoView({behavior:'smooth',block:'center'})">
-                Leistungen
-            </button>
-            <button class="menu-button"
-                onclick="document.getElementById('Kontakt-section').scrollIntoView({behavior:'smooth',block:'center'})">
-                Kontakt
-            </button>
-        </div>
         <div class="anim">
             <h1>
                 Musiktechnik TS
@@ -48,7 +34,7 @@
             </button>
         </div>
     </div>
-    <div class="middle-w" id="Leistungen-section">
+    <div class="middle-w" id="Leistungen-section" style="transform: translateX(50vw);">
         <h1>Leistungen</h1>
         <ul>
             <li>
@@ -68,7 +54,7 @@
             </svg>
         </button>
     </div>
-    <div class="middle-b" id="Kontakt-section">
+    <div class="middle-b" id="Kontakt-section" style="transform: translateX(20vw);">
         <h1>Kontakt</h1>
         <p class="align-center">
             Mail : <a href="mailto:XXXXXXX">XXXXXXXX@gamil.com</a>
@@ -80,6 +66,21 @@
             <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24">
                 <path d="M440-160v-487L216-423l-56-57 320-320 320 320-56 57-224-224v487h-80Z" />
             </svg>
+        </button>
+    </div>
+
+    <div class="menu">
+        <button class="menu-button"
+            onclick="document.getElementById('start-section').scrollIntoView({behavior:'smooth',block:'center'})">
+            Home
+        </button>
+        <button class="menu-button"
+            onclick="document.getElementById('Leistungen-section').scrollIntoView({behavior:'smooth',block:'center'})">
+            Leistungen
+        </button>
+        <button class="menu-button"
+            onclick="document.getElementById('Kontakt-section').scrollIntoView({behavior:'smooth',block:'center'})">
+            Kontakt
         </button>
     </div>
 </body>

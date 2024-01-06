@@ -28,7 +28,7 @@ html {
     background-position: center;
 }
 
-.start .menu {
+.menu {
     position: fixed;
     top: 20px;
     right: 20px;
@@ -174,7 +174,7 @@ button:hover {
         font-size: 12px;
     }
 
-    .start .menu {
+    .menu {
         display: none;
     }
 }
