@@ -18,18 +18,42 @@
 
 <body>
     <div class="start">
-        <h1>
-            Musiktechnik TS
-        </h1>
-        <p>
-            Dein Musiktechnik Service
+        <div class="anim">
+            <h1>
+                Musiktechnik TS
+            </h1>
+            <p>
+                Dein Musiktechnik Service
+            </p>
+            <button
+                onclick="document.getElementById('Leistungen-section').scrollIntoView({behavior:'smooth',block:'center'})">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24">
+                    <path
+                        d="M480-200 240-440l56-56 184 183 184-183 56 56-240 240Zm0-240L240-680l56-56 184 183 184-183 56 56-240 240Z" />
+                </svg>
+            </button>
+        </div>
+    </div>
+    <div class="middle-w" id="Leistungen-section">
+        <h1>Leistungen</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem rerum ratione aspernatur? Tempora sapiente
+            animi eum. Nobis nam iure aliquam unde quia, autem exercitationem id voluptatum ipsum aut iusto officiis?
         </p>
+        <button onclick="document.getElementById('Kontakt-section').scrollIntoView({behavior:'smooth',block:'center'})">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24">
+                <path
+                    d="M480-200 240-440l56-56 184 183 184-183 56 56-240 240Zm0-240L240-680l56-56 184 183 184-183 56 56-240 240Z" />
+            </svg>
+        </button>
     </div>
-    <div class="middle-w">
-
-    </div>
-    <div class="middle-b">
-
+    <div class="middle-b" id="Kontakt-section">
+        <h1>Kontakt</h1>
+        <p class="align-center">
+            Mail : <a href="mailto:">xxx@gamil.com</a>
+        </p>
+        <p class="align-center">
+            Tel : <a href="tel:">493788822828</a>
+        </p>
     </div>
 </body>
 
