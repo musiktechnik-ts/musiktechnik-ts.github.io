@@ -42,6 +42,7 @@ html {
 a {
     color: var(--a);
     text-decoration: none;
+    text-shadow: 0 0 30px var(--a);
 }
 
 button {
