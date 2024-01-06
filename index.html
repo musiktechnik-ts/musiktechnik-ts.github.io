@@ -17,7 +17,7 @@
 </head>
 
 <body>
-    <div class="start">
+    <div class="start" id="start-section">
         <div class="anim">
             <h1>
                 Musiktechnik TS
@@ -54,6 +54,11 @@
         <p class="align-center">
             Tel : <a href="tel:">493788822828</a>
         </p>
+        <button onclick="document.getElementById('start-section').scrollIntoView({behavior:'smooth',block:'center'})">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24">
+                <path d="M440-160v-487L216-423l-56-57 320-320 320 320-56 57-224-224v487h-80Z" />
+            </svg>
+        </button>
     </div>
 </body>
 
